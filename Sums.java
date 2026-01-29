@@ -1,6 +1,6 @@
 public class Sums{
 
-    public static void SumOfIndexes(){
+    public static void SumOfIndexes(int[] numbers){
 
         // both sums are 0 in the beginning
         int sumOfOddIndexes = 0;
