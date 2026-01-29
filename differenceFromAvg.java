@@ -1,3 +1,4 @@
+// differenceFromAverage method outputs an array by finding the difference each integer in an inputted array has from the array average
 
 public class differenceFromAvg {
 
@@ -17,4 +18,5 @@ public class differenceFromAvg {
         }
         return answer;
     }
+
 }

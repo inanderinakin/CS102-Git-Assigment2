@@ -9,7 +9,7 @@ public class ArrayCreator {
 
         // For every element in the array, replace it with a random integer from 0 to 100
         for (int i = 0; i < size; i++) {
-            arr[i] = random.nextInt(0, 100);
+            arr[i] = random.nextInt(0, 101);
         }
         return arr;
     }
