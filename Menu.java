@@ -57,10 +57,10 @@ public class Menu {
                     Arrays.toString(DifferenceFromAvg.differenceFromAverage(array)));
         }
         if (operation == '4') {
-            // TODO: implement here when the methods are provided.
+            System.out.printf("The sum with odd-indexes is %d%n", Sums.sumOfOddIndexes(array));
         }
         if (operation == '5') {
-            // TODO: implement here when the methods are provided.
+            System.out.printf("The sum with even-indexes is %d%n", Sums.sumOfEvenIndexes(array));
         }
         if (operation == 'e') {
             System.out.println();
