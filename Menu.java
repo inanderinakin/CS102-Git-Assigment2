@@ -54,7 +54,7 @@ public class Menu {
         }
         if (operation == '3') {
             System.out.printf("The average difference array is: %s%n",
-                    Arrays.toString(differenceFromAvg.differenceFromAverage(array)));
+                    Arrays.toString(DifferenceFromAvg.differenceFromAverage(array)));
         }
         if (operation == '4') {
             // TODO: implement here when the methods are provided.

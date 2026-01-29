@@ -1,6 +1,6 @@
 // differenceFromAverage method outputs an array by finding the difference each integer in an inputted array has from the array average
 
-public class differenceFromAvg {
+public class DifferenceFromAvg {
 
     public static int[] differenceFromAverage(int[] numbers){
         int avg = 0;
@@ -11,7 +11,7 @@ public class differenceFromAvg {
             avg += numbers[i];
         }
         // Divide the sum by integer count to find the average
-        avg = avg/length;
+        avg /= length;
         // Find the difference of all integers from the sum
         for (int i = 0; i < length; i++) {
             answer[i] = numbers[i] - avg;
